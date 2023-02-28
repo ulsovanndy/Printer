@@ -14,7 +14,7 @@ class BluetoothPeripheralDelegate: NSObject, CBPeripheralDelegate {
     private var services: Set<String>!
     private var characteristics: Set<CBUUID>?
 
-    private let writablecharacteristicUUID = "BEF8D6C9-9C21-4C9E-B632-BD58C1009F9F"
+    private let writablecharacteristicUUID = "2AF1"
 
     var wellDoneCanWriteData: ((CBPeripheral) -> ())?
 
